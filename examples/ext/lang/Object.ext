@@ -1,0 +1,11 @@
+package ext.lang;
+
+
+/**
+ * All the objects extends form this class. This class
+ * has the logic to garbage collect unused references.
+ */
+public class Object {
+    public Object() {
+    }
+}

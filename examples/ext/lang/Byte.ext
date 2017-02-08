@@ -1,0 +1,17 @@
+package ext.lang;
+
+/**
+* All in the plataform going to be
+* represented as a Byte.
+* A Byte is a 8 bits memory space allocated.
+*/
+
+// All final classes would be trated as value objects
+// Inmutables and non references.
+
+public final class Byte {
+    public Byte() {}
+
+    public native operator +;
+    public native operator -;
+}

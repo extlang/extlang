@@ -1,0 +1,5 @@
+package ext.lang;
+
+public interface List<T> {
+    
+}

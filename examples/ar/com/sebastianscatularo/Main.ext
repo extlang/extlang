@@ -1,0 +1,24 @@
+package ar.com.sebastian;
+
+import ext.lang.Functions.identity;
+import ext.lang.Boolean.FALSE;
+
+/*
+
+*/
+export main(String... args) {
+    List<String> list = new ArrayList<String>();
+    List<String> identityCopy = list.map(identity);
+    Boolean flag = FALSE;
+    
+    while(flag) {
+        Integer value = 1;
+        if (value > 0) {
+            flag = TRUE;
+        }
+    }
+
+    asm {
+        mov 2 DS;
+    }
+}

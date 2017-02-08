@@ -1,0 +1,6 @@
+package ext.lang;
+
+// All functions are statics and finals
+export identity<T>(T t): T {
+    return t;
+}

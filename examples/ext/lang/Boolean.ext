@@ -1,0 +1,14 @@
+package ext.lang;
+
+public final class Boolean {
+    public static final Boolean FALSE = new Boolean("FALSE");
+    public static final Boolean TRUE = new Boolean("TRUE");
+
+    private final String value = value;
+
+    public Boolean(String value) {
+        this.value = value;
+    }
+
+    
+}
