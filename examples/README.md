@@ -18,3 +18,16 @@ extv -h | --help
 
 -version: returns the version.
 -im: image file.
+
+All final classes would be trated as values
+
+Replace `export` with a visibility modificator like `public`, `private` or none.
+
+Add channels example for asyncronus (see golang)
+
+The vm go to be an implementation of OpenRisc architecture, where filesystem, network and other things go to be devices with
+their procesors and a way to plug and play.
+
+The vm can run object code (object code are a code with full symbols) and compacted and linked code (code with the necesary symbols).
+
+Share libraries? how to?
